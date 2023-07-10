@@ -2,12 +2,15 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    max-width: 1600px;
+}
 .nav-bar{
     height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(212, 199, 199);
+    background-color: rgb(99, 99, 74);
 }
 .menu-options{
     font-size: 18px;
@@ -21,6 +24,7 @@
     height: 100vh;
     align-items: center;
     background-image: url("../asset/image/background.jpg"), linear-gradient(45deg,rgb(8, 8, 8,0.8),rgb(53, 53, 53,0.3));
+    background-size: cover;
     background-blend-mode: overlay;
     background-position: center;
     
@@ -51,4 +55,121 @@
 .primary-btn{
     background-color: red;
     color: white;
+}
+.services{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-description{
+    color: white;
+    width: 50%;
+    padding-left: 25px;
+    
+}
+.info{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.author-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin-right: 5px;
+}
+.box{
+    background-color: white;
+    width: 35vh;
+    height: 40vh;
+    margin: 10px 10px 5px 5px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.box-img{
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.box12{
+    display: flex;
+    justify-content: space-between;
+}
+.service-btn{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-size: 14;
+    
+}
+.primary-head{
+    font-size: 40px;
+}
+.info-details{
+    border-left: 2px solid red;
+    padding-left: 6px;
+}
+.icon-call{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.contact-info{
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+    border-right: 2px solid gray;
+}
+.contact{
+    color: white;
+    width: 80%;
+    margin: -30px auto;
+    border-radius: 10px;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.blog{
+    margin: 50px;
+    text-align: center;
+}
+.blog-para{
+    margin-top: 5px;
+}
+.lay1{
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 4px gray;
+    
+}
+.lay1-img{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
+.lay3{
+    /* background-color: antiquewhite; */
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+}
+.lay1-head{
+    margin: 20px 10px 10px 20px;
+    font-size: 22px;
+}
+.lay1-para{
+    margin-left: 20px;
 }
